@@ -788,6 +788,8 @@ button.aui-button {
 }
 
 form.aui .text,
+.jira-multi-select.long-field>textarea,
+.select, 
 form.aui .password,
 form.aui .upfile,
 form.aui .textarea,
@@ -912,7 +914,7 @@ span.highlightChanges {
     border-color: #3C414C !important;
 }
 
-.dashboard-tabs, .navigator-sidebar, .ui-sidebar-content, .ui-sidebar-scrollable {
+.dashboard-tabs, .navigator-sidebar, .ui-sidebar-content, .ui-sidebar-scrollable, .aui-page-panel-nav {
     background: #2c3037 !important;
 }
 
