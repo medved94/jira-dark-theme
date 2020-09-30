@@ -38,11 +38,11 @@ em {
 }
 
 ::selection {
-    background: #6A25AA !important;
+    background: #dedede !important;
 }
 
 ::-moz-selection {
-    background: #6A25AA !important;
+    background: #dedede !important;
 }
 
 .aui-sidebar[aria-expanded="false"] .aui-sidebar-group:focus,
@@ -930,9 +930,7 @@ span.highlightChanges {
     background: #2c3037 !important;
 }
 
-li:hover lu {
-    background: #2c3037 !important;
-}
+
 
 .value > table > tbody > tr {
     
@@ -990,7 +988,7 @@ body#tinymce table th {
     box-shadow: none !important;
 }
 
-#ghx-backlog .ghx-parent-group .ghx-subtask-group {
+#ghx-backlog .ghx-parent-group .ghx-subtask-group ,.ghx-sprint-info {
     background: #21252D !important;
 }
 
@@ -1011,4 +1009,16 @@ pre,
 code {
     background: #2C3037 !important;
     color: #EBEBEB !important;
+}
+
+.quicksearch-dropdown ,.suggestions {
+    background-color: #2c3037 !important;
+}
+
+.atlassian-autocomplete .suggestions li {
+    color: #EBEBEB !important;
+}
+
+.quick-search-active, .active {
+    background: #434953 !important;
 }
