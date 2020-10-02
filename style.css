@@ -160,8 +160,7 @@ form.aui div.description {
     background-color: #21252D !important;
 }
 
-.issue-table>thead>tr>th:hover
-{
+.issue-table > thead > tr > th:hover {
     background-color: #282c33 !important;
 }
 
@@ -296,6 +295,10 @@ form.aui div.description {
     color: #668fba !important;
 }
 
+.aui-blanket {
+    background: rgb(84 84 84 / 45%);
+}
+
 .aui-lozenge.jira-issue-status-lozenge-green {
     background-color: transparent !important;
     border-color: #14892c !important;
@@ -356,7 +359,8 @@ form.aui div.description {
     background-color: #21252D !important;
 }
 
-.layout-aa, .layout {
+.layout-aa,
+.layout {
     background-color: #21252D !important;
 }
 
@@ -788,8 +792,8 @@ button.aui-button {
 }
 
 form.aui .text,
-.jira-multi-select.long-field>textarea,
-.select, 
+.jira-multi-select.long-field > textarea,
+.select,
 form.aui .password,
 form.aui .upfile,
 form.aui .textarea,
@@ -914,28 +918,41 @@ span.highlightChanges {
     border-color: #3C414C !important;
 }
 
-.dashboard-tabs, .navigator-sidebar, .ui-sidebar-content, .ui-sidebar-scrollable, .aui-page-panel-nav {
+.dashboard-tabs,
+.navigator-sidebar,
+.ui-sidebar-content,
+.ui-sidebar-scrollable,
+.aui-page-panel-nav {
     background: #2c3037 !important;
 }
 
-.totals, .collapsed-comments, .show-more-comments {
+.totals,
+.collapsed-comments,
+.show-more-comments {
     background-color: #21252d !important;
 }
 
-.issue-table, .updated, .duedate, .customfield_11700, .issue-link-summary, .show-more-comments {
-    color: #fff !important; 
+.issue-table,
+.updated,
+.duedate,
+.customfield_11700,
+.issue-link-summary,
+.show-more-comments {
+    color: #fff !important;
 }
 
-.js-quickfilter-button:hover, .aui-expander-trigger:hover, .lozenge {
+.js-quickfilter-button:hover,
+.aui-expander-trigger:hover,
+.lozenge {
     background: #2c3037 !important;
 }
 
 
 
 .value > table > tbody > tr {
-    
+
     background: #21252d !important;
-} 
+}
 
 .value > table > tbody > tr > td > span {
     color: white !important;
@@ -988,7 +1005,8 @@ body#tinymce table th {
     box-shadow: none !important;
 }
 
-#ghx-backlog .ghx-parent-group .ghx-subtask-group ,.ghx-sprint-info {
+#ghx-backlog .ghx-parent-group .ghx-subtask-group,
+.ghx-sprint-info {
     background: #21252D !important;
 }
 
@@ -1011,7 +1029,8 @@ code {
     color: #EBEBEB !important;
 }
 
-.quicksearch-dropdown ,.suggestions {
+.quicksearch-dropdown,
+.suggestions {
     background-color: #2c3037 !important;
 }
 
@@ -1019,6 +1038,7 @@ code {
     color: #EBEBEB !important;
 }
 
-.quick-search-active, .active {
+.quick-search-active,
+.active {
     background: #434953 !important;
 }
