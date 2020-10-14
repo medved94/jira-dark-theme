@@ -22,6 +22,11 @@ em {
     color: #BEBEBE !important;
 }
 
+::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+    height: 12px; 
+}
+
 /* Track */
 ::-webkit-scrollbar-track {
     background: #BEBEBE !important;
@@ -135,7 +140,7 @@ form.aui div.description {
     border: none;
 }
 
-#dashboard,
+#dashboard, #dashboard-content,
 .gadget .dashboard-item-content {
     background-color: #21252D !important;
 }
@@ -690,9 +695,11 @@ form.aui div.description {
     background-color: #2C3037 !important;
 }
 
-.page-type-split .navigator-body {
+.page-type-split .navigator-body, .navigator-body {
     background-color: #21252D !important;
 }
+
+
 
 .page-type-split .navigator-group {
     background-color: #21252D !important;
@@ -947,7 +954,9 @@ span.highlightChanges {
     background: #2c3037 !important;
 }
 
-
+.commit th {
+    background-color: #2c3037; !important;
+}
 
 .value > table > tbody > tr {
 
