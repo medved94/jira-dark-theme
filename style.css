@@ -1051,3 +1051,11 @@ code {
 .active {
     background: #434953 !important;
 }
+
+#issuetable>tbody>tr, .issue-table>tbody>tr, #issuetable>tfoot>tr, .issue-table>tfoot>tr {
+    color: #559cd6 !important;
+}
+
+.aui-dialog2-header {
+    background: #2c3037 !important;
+}
